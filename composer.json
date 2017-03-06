@@ -15,12 +15,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Application\\": "src/Application/"
+            "DeliveryArretado\\": "src/Application/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ApplicationTest\\": "tests/ApplicationTest"
+            "DeliveryArretado\\Test\\": "tests/ApplicationTest"
         }
     },
     "require": {
