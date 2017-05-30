@@ -30,12 +30,12 @@ require __DIR__ . '/../vendor/autoload.php';
  */
 $app = new Silex\Application();
 
-require __DIR__ . '/../public/services.php';
+require __DIR__ . '/../web/services.php';
 
-require __DIR__ . '/../public/providers.php';
+require __DIR__ . '/../web/providers.php';
 
-require __DIR__ . '/../public/middleware.php';
+require __DIR__ . '/../web/middleware.php';
 
-require __DIR__ . '/../public/routes.php';
+require __DIR__ . '/../web/routes.php';
 
 $app->run();
